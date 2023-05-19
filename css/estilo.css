@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #80808029;
+    font-family: 'Raleway';
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.img-logo {
+    height: 32px;
+    width: 32px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+
+.topo {
+    display: flex;
+    flex-direction: row;
+    /*justify-content: center;*/
+    align-items: center;
+    height: 55px;
+    width: 100%;
+    max-width: 1024px;
+    background-color: #fff;
+    font-size: 24px;
+    color: #5d15d1;
+    margin-left: 10px;    
+}
+
+.img-form {
+    width: 100%;
+    height: auto;
+    background-image: url("/Agencia_de_viagens/imagens/bahia.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.form-div {
+    font-family: 'Raleway';
+    font-size: 16px;    
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: auto;    
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.form-titulo {
+    width: 100%;
+    height: 35px;
+    background-color: #5d15d1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #fff;
+}
+
+.form-logo {
+    height: 20px;
+    width: 20px;
+    rotate: -45deg;
+}
+
+.form-dados {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    background-color: #fff;
+    padding: 30px 25px 20px 25px;
+}
+
+.form-2column {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.form-data {
+    width: 50%;
+    height: auto;
+    margin-left: 5px;
+
+}
+
+.centro-h {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.centro-v {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.datas {
+    width: 30%;
+}
+
+form, label {
+    font-family: 'Raleway';
+    font-size: 14px;
+}
+
+select {
+    padding: 0 3px;
+}
+
+.campo {
+    height: 32px;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    margin-left: 10px;    
+}
+
+.checks {
+    margin: 10px 0 10px 5px;
+    display: flex;
+    align-items: center;
+}
+
+button {
+    height: 32px;
+    width: 160px;
+    font-family: "Raleway";
+    font-size: 16px;
+    color: #fff;
+    background-color: #5d15d1;
+    border: 0;
+    margin-top: 12px;
+}
+
+.section-ferta {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    margin: 32px auto 0 auto;
+    display: flex;
+}
+
+.ofertas {
+    width: 100%;
+    height: 375px;
+    display: flex;
+}
+
+.ofertas-img-principal {
+    width: calc(50% - 10px);
+    height: 100%;
+    display: flex;
+    padding: 5px;
+    flex-direction: column;
+}
+
+.ofertas-img-secundario {
+    width: calc(50% - 10px);
+    padding: 5px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.ofertas-img-secundario > div {
+    display: flex;
+    flex-flow: row wrap;
+    width: calc(50% - 10px);
+    height: calc(50% - 10px);
+}
+
+.legenda {
+    position: relative;
+    bottom: 20px;
+    left: 0px;
+    padding-left: 10px;
+    width: 100%;
+    font-size: 17px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 50%);
+}
+
+.promo {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.promo-card {
+    display: flex;
+    flex-flow: column;
+    width: calc(50% - 10px);
+    height: 100%;
+}
+
+.promo-card > div {
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    font-size: 16px;
+}
+
+.promo-card > div > p {
+    margin-top: 15px;
+    color: gray;
+}
+
+.footer {
+    width: 100%;
+    margin-top: 32px;
+    background-color: #5d15d1;
+}
+
+.footer-centro {
+    max-width: 1024px;
+    display: flex;
+    margin: 0 120px;
+    justify-content: space-between;
+}
+
+.footer-contato {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.footer-contato > h2 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.footer-contato > div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 5px 0;
+
+}
+
+.footer-contato > div > img {
+    width: 18px;
+    display: flex;
+    flex: 0 0 18px;
+}
+
+.footer-contato > div > span {
+    color: #fff;
+    font-size: 14px;
+    margin-left: 10px;
+}
